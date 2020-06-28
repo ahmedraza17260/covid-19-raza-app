@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  /* width: 95%; */
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  /* align-items: center; */
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 30%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  /* background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 1%,
+    rgba(148, 187, 233, 1) 100%
+  ); */
+}
+
+.copyRight {
+  text-align: center;
+  /* padding-bottom: 6px !important; */
+  color: black !important;
+  /* opacity: ; */
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  padding: 4px !important;
+  font-size: x-large !important;
+  box-shadow: black 5px 5px 5px 5px;
+  padding: 1px !important;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 17%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  margin-top: 30px !important;
+}
+
+.box_shadow {
+  box-shadow: black 5px 5px 5px 5px;
+  padding: 1px !important;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 17%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  margin-bottom: 30px !important;
+}

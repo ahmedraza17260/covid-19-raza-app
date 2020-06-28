@@ -50,7 +50,7 @@ class App extends React.Component {
 
         <div className="copyRight">
           <h4> Made By Ahmed Raza </h4>
-          <a href="https://github.com/ahmedraza17260" rel="noopener noreferrer">
+          <a href="https://github.com/ahmedraza17260" rel="noreferrer">
             {" "}
             <h3> &copy; Ahmed Raza </h3>{" "}
           </a>

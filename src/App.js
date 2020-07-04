@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import CountryList from "./components/CountryList/CountryList";
 import SearchBox from "./components/SearchBox/SearchBox";
+import GlobalStats from './components/GlobalData/GlobalStats';
 class App extends React.Component {
   constructor() {
     super();
@@ -40,12 +41,14 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className=" box_shadow">
-          <h1>Covid19 App</h1>
+          <h1>Covid19 Tracker App </h1>
         </div>
         <SearchBox
           placeholder="Enter Country Name ..."
           handleChange={this.handleChange}
         />
+        <GlobalStats />
+        <br /> <br /> <br />
         <CountryList stats={filteredCountries} />
 
         <div className="copyRight">

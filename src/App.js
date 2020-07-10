@@ -52,10 +52,11 @@ class App extends React.Component {
         <CountryList stats={filteredCountries} />
 
         <div className="copyRight">
-          <h4> Made By Ahmed Raza </h4>
+          <h4> Powered by Ahmed Raza </h4>
           <a href="https://github.com/ahmedraza17260" rel="noreferrer">
             {" "}
-            <h3> &copy; Ahmed Raza </h3>{" "}
+            <h3> Copyright &copy; 2020 Ahmed Raza </h3>{" "}
+            <h3> All Right Reserved </h3>
           </a>
         </div>
       </div>
